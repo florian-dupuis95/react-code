@@ -1,0 +1,17 @@
+.Grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+    @media only screen and (max-width: 600px) {
+     .Grid{
+        grid-gap: unset;
+     }
+    }
+
+.box{
+    padding: 20px;
+    background-color: aqua;
+}
